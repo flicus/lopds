@@ -1,0 +1,62 @@
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
+    <description>
+        <title-info>
+            <genre>love_short</genre>
+            <author>
+                <first-name>Дикси</first-name>
+                <last-name>Браунинг</last-name>
+                <id>d83740cc-2a82-102a-9ae1-2dfe723fe7c7</id>
+            </author>
+            <book-title>Свидание с судьбой</book-title>
+            <annotation>
+                <p>Потрясенная внезапной смертью отца, Вэл решает найти виновных в банкротстве его фирмы. Судьба сводит
+                    ее с Маком, который жаждет доказать невиновность своего брата…
+                </p>
+            </annotation>
+            <date>2003</date>
+            <coverpage>
+                <image l:href="#cover.jpg"/>
+            </coverpage>
+            <lang>ru</lang>
+            <src-lang>en</src-lang>
+            <translator>
+                <first-name>Н.</first-name>
+                <last-name>Леонова</last-name>
+                <id>77df3817-50d1-102c-9c5b-e8b0b7836b8f</id>
+            </translator>
+        </title-info>
+        <src-title-info>
+            <genre>love_short</genre>
+            <author>
+                <first-name>Dixie</first-name>
+                <last-name>Browning</last-name>
+            </author>
+            <book-title>Social Graces</book-title>
+            <date/>
+            <lang>en</lang>
+        </src-title-info>
+        <document-info>
+            <author>
+                <first-name>Roland</first-name>
+                <last-name/>
+            </author>
+            <program-used>FB Editor v2.0</program-used>
+            <date value="2009-02-20">20 February 2009</date>
+            <src-ocr>OCR Anita, вычитка anechka</src-ocr>
+            <id>89f68d93-50d1-102c-9c5b-e8b0b7836b8f</id>
+            <version>1.0</version>
+        </document-info>
+        <publish-info>
+            <book-name>Свидание с судьбой</book-name>
+            <publisher>Радуга</publisher>
+            <city>Москва</city>
+            <year>2005</year>
+            <isbn>5-05-006150-4</isbn>
+            <sequence name="Любовный роман"/>
+        </publish-info>
+    </description>
+    <body>
+        <title>
+            <p>Дикси Браунинг</p>
+
+            <p>Свидание с судьбой</p>

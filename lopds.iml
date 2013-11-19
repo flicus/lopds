@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="IvyIDEA" name="IvyIDEA">
+      <configuration ivyFile="$MODULE_DIR$/ivy.xml" useProjectSettings="true" useCustomIvySettings="true" ivySettingsFile="" onlyResolveSelectedConfigs="false">
+        <propertiesSettings>
+          <propertiesFiles includeProjectLevelPropertiesFiles="true" />
+        </propertiesSettings>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="h2-1.3.170" level="project" />
+    <orderEntry type="module-library">
+      <library name="IvyIDEA">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.openejb/javaee-api/jars/javaee-api-5.0-2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/javax.mail/mail/jars/mail-1.4.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.geronimo.specs/geronimo-jms_1.1_spec/jars/geronimo-jms_1.1_spec-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.2.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml/aalto-xml/bundles/aalto-xml-0.9.8.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.woodstox/stax2-api/jars/stax2-api-3.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/javax.xml.stream/stax-api/jars/stax-api-1.0-2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.jdom/jdom/jars/jdom-2.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/jaxen/jaxen/jars/jaxen-1.1.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/jdom/jdom/jars/jdom-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/xom/xom/jars/xom-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/xerces/xmlParserAPIs/jars/xmlParserAPIs-2.6.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.ibm.icu/icu4j/jars/icu4j-2.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/cobertura/cobertura/jars/cobertura-1.8.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/oro/oro/jars/oro-2.0.8.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/asm/asm/jars/asm-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-jelly/commons-jelly-tags-log/jars/commons-jelly-tags-log-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/findbugs/bcel/jars/bcel-5.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/findbugs/coreplugin/jars/coreplugin-1.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/findbugs/findbugs/jars/findbugs-1.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/findbugs/annotations/jars/annotations-1.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/bcel/bcel/jars/bcel-5.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/regexp/regexp/jars/regexp-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/findbugs/findbugs-ant/jars/findbugs-ant-1.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/findbugs/findbugsGUI/jars/findbugsGUI-1.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.10.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/xalan/xalan/jars/xalan-2.7.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/xalan/serializer/jars/serializer-2.7.1.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/javadocs/log4j-1.2.17-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.code.gson/gson/javadocs/gson-2.2.2-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml/aalto-xml/javadocs/aalto-xml-0.9.8-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.jdom/jdom/javadocs/jdom-2.0.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/sources/log4j-1.2.17-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpcore/sources/httpcore-4.2.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.code.gson/gson/sources/gson-2.2.2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml/aalto-xml/sources/aalto-xml-0.9.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.jdom/jdom/sources/jdom-2.0.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

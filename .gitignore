@@ -1,3 +1,9 @@
+.idea
+lib
+out
+ivy
+
+
 *.class
 
 # Package Files #

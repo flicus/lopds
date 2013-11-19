@@ -1,0 +1,11 @@
+<ivy-module version="2.0">
+    <info organisation="org.schors" module="lopds"/>
+    <dependencies>
+        <dependency org="log4j" name="log4j" rev="latest.integration"/>
+        <dependency org="org.apache.httpcomponents" name="httpcore" rev="4.2.3"/>
+        <dependency org="com.google.code.gson" name="gson" rev="2.2.2"/>
+        <!--<dependency org="org.codehaus.woodstox" name="woodstox-core-asl" rev="4.1.5"/>-->
+        <dependency org="com.fasterxml" name="aalto-xml" rev="0.9.8"/>
+        <dependency org="org.jdom" name="jdom" rev="2.0.2"/>
+    </dependencies>
+</ivy-module>
