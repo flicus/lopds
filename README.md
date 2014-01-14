@@ -1,4 +1,4 @@
 lopds
 =====
 
-Home OPDS catalog
+Home OPDS catalog (unfinished yet)
