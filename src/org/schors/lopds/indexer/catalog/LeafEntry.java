@@ -7,5 +7,26 @@ package org.schors.lopds.indexer.catalog;
  * Time: 21:15
  * To change this template use File | Settings | File Templates.
  */
-public class LeafEntry {
+public class LeafEntry extends BasicEntry {
+
+    private Integer authorId;
+
+    public LeafEntry(Integer authorId) {
+        this.authorId = authorId;
+    }
+
+    public Integer getAuthorId() {
+        return authorId;
+    }
+
+    public void setAuthorId(Integer authorId) {
+        this.authorId = authorId;
+    }
+
+    @Override
+    public String toString() {
+        return "LeafEntry{" +
+                "authorId=" + authorId +
+                '}';
+    }
 }

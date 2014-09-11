@@ -10,4 +10,6 @@ package org.schors.lopds.indexer.catalog;
 public class BasicEntry {
     private EntryType entryType;
 
+
+
 }
