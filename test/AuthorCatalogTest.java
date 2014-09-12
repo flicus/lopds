@@ -31,6 +31,7 @@ public class AuthorCatalogTest {
         ac.indexAuthor("Пу",8);
         ac.indexAuthor("Пуш",9);
         ac.indexAuthor("Пупкин",10);
+        ac.finalize();
 
     }
 

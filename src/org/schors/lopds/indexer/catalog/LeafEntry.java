@@ -7,7 +7,7 @@ package org.schors.lopds.indexer.catalog;
  * Time: 21:15
  * To change this template use File | Settings | File Templates.
  */
-public class LeafEntry extends BasicEntry {
+public class LeafEntry {
 
     private Integer authorId;
 

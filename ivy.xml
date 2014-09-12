@@ -8,5 +8,6 @@
         <dependency org="com.fasterxml" name="aalto-xml" rev="0.9.8"/>
         <dependency org="org.jdom" name="jdom" rev="2.0.2"/>
         <dependency org="junit" name="junit" rev="4.11"/>
+        <dependency org="com.h2database" name="h2" rev="1.4.181"/>
     </dependencies>
 </ivy-module>

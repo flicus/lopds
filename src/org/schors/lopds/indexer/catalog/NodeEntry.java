@@ -12,49 +12,54 @@ import java.util.Map;
  * Time: 21:15
  * To change this template use File | Settings | File Templates.
  */
-public class NodeEntry extends BasicEntry {
-
-    private List<LeafEntry> leafs = new ArrayList<>();
+public class NodeEntry extends CatalogItem {
     private List<ChildWrapper> children = new ArrayList<>();
-    private Map<String, NodeEntry> branches = new HashMap<>();
 
     public void indexEntry(String name, Integer authorId) {
-        String nodeIndex = name.toLowerCase().substring(0, 1);
-        if (name.length() > 1) {
-            String remains = name.toLowerCase().substring(1, name.length());
+        if (name.length() >= 1) {
             if (children != null) {
-                ChildWrapper wrapper = new ChildWrapper(remains, authorId);
+                ChildWrapper wrapper = new ChildWrapper(name, authorId);
                 children.add(wrapper);
                 if (children.size() > AuthorCatalog.MAX_PAGE_SIZE) {
+                    String childIndex = null;
+                    String childRemains = null;
                     for (ChildWrapper item : children) {
-                        NodeEntry node = getOrCreateNode(nodeIndex);
-                        node.indexEntry(item.getIndex(), item.getAuthorId());
+                        childIndex = item.getIndex().toLowerCase().substring(0, 1);
+                        childRemains = item.getIndex().toLowerCase().substring(1, item.getIndex().length());
+                        NodeEntry node = getOrCreateNode(childIndex);
+                        node.indexEntry(childRemains, item.getAuthorId());
                     }
                     children.clear();
                     children = null;
                 }
             } else {
+                String nodeIndex = name.toLowerCase().substring(0, 1);
+                String remains = name.toLowerCase().substring(1, name.length());
                 NodeEntry node = getOrCreateNode(nodeIndex);
                 node.indexEntry(remains, authorId);
             }
         } else {
-            NodeEntry node = getOrCreateNode(nodeIndex);
             LeafEntry entry = new LeafEntry(authorId);
-            node.addChild(entry);
+            leafs.add(entry);
         }
+        count++;
     }
 
-    private NodeEntry getOrCreateNode(String index) {
-        NodeEntry node = branches.get(index);
-        if (node == null) {
-            node = new NodeEntry();
-            branches.put(index, node);
-        }
-        return node;
+    public List<LeafEntry> getLeafs() {
+        return leafs;
     }
 
 
-    public void addChild(LeafEntry entry) {
-        leafs.add(entry);
+    @Override
+    public void finalize() {
+        if (children != null && children.size() > 0) {
+            for (ChildWrapper item : children) {
+                LeafEntry leaf = new LeafEntry(item.getAuthorId());
+                leafs.add(leaf);
+            }
+            children.clear();
+            children = null;
+        }
+        super.finalize();
     }
 }

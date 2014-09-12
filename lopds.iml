@@ -56,6 +56,7 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/xalan/serializer/jars/serializer-2.7.1.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/junit/junit/jars/junit-4.11.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.h2database/h2/jars/h2-1.4.181.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/javadocs/log4j-1.2.17-javadoc.jar!/" />
@@ -63,6 +64,7 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml/aalto-xml/javadocs/aalto-xml-0.9.8-javadoc.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.jdom/jdom/javadocs/jdom-2.0.2-javadoc.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/junit/junit/javadocs/junit-4.11-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.h2database/h2/javadocs/h2-1.4.181-javadoc.jar!/" />
         </JAVADOC>
         <SOURCES>
           <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/sources/log4j-1.2.17-sources.jar!/" />
@@ -71,6 +73,7 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml/aalto-xml/sources/aalto-xml-0.9.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.jdom/jdom/sources/jdom-2.0.2-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/junit/junit/sources/junit-4.11-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.h2database/h2/sources/h2-1.4.181-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

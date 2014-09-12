@@ -22,7 +22,6 @@ public class Main {
 //        a= tt.split("/");
 
 
-        TreeMap
         Configuration cfg = Configuration.getInstance();
         //LibraryTraverser traverser = new LibraryTraverserImpl();
         //LibraryIndexer indexer = new LibraryIndexer(traverser);
